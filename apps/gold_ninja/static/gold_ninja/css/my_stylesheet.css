@@ -1,0 +1,21 @@
+.gold{
+	display: inline-block;
+	border: 2px solid black;
+	width: 180px;
+	height: 150px;
+	text-align: center;
+	margin: 5px;
+}
+form{
+	display: block;
+}
+textarea{
+	width: 300px;
+	height: auto;
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
