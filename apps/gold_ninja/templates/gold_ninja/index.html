@@ -21,7 +21,7 @@ Ninja's Gold:<input type="text" name="your_gold" value="{{request.session.your_g
 </div>
 <div class="gold" id="cave">
 	<h3>Cave</h3>
-	<p>(earns 5-10 golds)</p>
+	<p>(earns 10-15 golds)</p>
 	<form action="/process" method="post">{%csrf_token%}
 		<input type="submit" name="cave" value="Find Gold!">
 	</form>

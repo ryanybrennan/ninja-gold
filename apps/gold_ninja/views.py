@@ -13,7 +13,7 @@ def index(request):
     return render(request, 'gold_ninja/index.html')
 def process(request):
     gold_dict={ 'farm': random.randint(10,20),
-    'cave': random.randint(5,10),
+    'cave': random.randint(10,15),
     'house': random.randint(2,5),
     'casino': random.randint(-50, 50)}
 
